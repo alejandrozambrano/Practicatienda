@@ -5,11 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .login {
+          width: 100%;
+          height: 100vh;
+          display: grid;
+          place-items: center;
+        }
+        .form-container {
+            display: grid;
+            place-template-rows: auto 1fr
+            auto;
+            width: 300px;
+        }
+        .logo  {
+          width: 150px;
+          margin-bottom: 48px;
+          justify-self: center; 
+          display: none; 
+        }
+    </style>
 </head>
 <body>
     <div class="login">
         <div class="form-container">
-            <img src="" alt="logo"
+            <img src="./Logos/logo_yard_sale.svg" alt="logo"
             class="logo">
 
             <h1 class="title">Create a new password</h1> 
