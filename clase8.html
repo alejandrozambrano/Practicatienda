@@ -22,6 +22,35 @@
             margin: 0;
             font-family: 'Quicksand',sans-serif;
         }
+        .mobile-menu {
+            padding: 24px;
+        }
+        .mobile-menu a{
+            text-decoration: none;
+            color: var(--black);
+            font-size: bold;
+            /* margin-bottom: 23px;*/
+        }
+        .mobile-menu ul {
+            padding: 0;
+            margin: 24px 0 0;
+            list-style: none;
+        }
+        .mobile-menu ul:nth-child(1) {
+            border-bottom: 1px solid var(--very-light-pink);
+        }
+
+
+        .mobile-menu ul li{
+            margin-bottom: 24px;
+        }
+        .email {
+            font-size: var(--sm);
+            font-weight: 300 !important;
+        }
+       
+            
+        }
     </style>
     
 </head>
@@ -53,19 +82,19 @@
 
      <ul>
         <li>
-            <a href="/" class="email">My orders</a>
+            <a href="/">My orders</a>
         </li>
         <li>
-            <a href="/" class="sing-out">My account</a>
+            <a href="/">My account</a>
         </li>
      </ul>
 
      <ul>
         <li>
-            <a href="/">alejandro_zambrano_@hotmail.com</a>
+            <a href="/" class="email">alejandro_zambrano_@hotmail.com</a>
         </li>
         <li>
-            <a href="/">Sing out</a>
+            <a href="/" class="sing-out">Sing out</a>
         </li>
      </ul>
     </div>
