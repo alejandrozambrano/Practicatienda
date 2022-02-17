@@ -1,3 +1,3 @@
 # Practicatienda
 Curso practico de frontend Developer.. Platzi
-Profesora: Estefany Aguilar  @tefcode
+Profesora: Estefany Aguilar, @teffcode
