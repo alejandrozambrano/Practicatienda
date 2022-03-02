@@ -10,3 +10,13 @@ Puedes reutilizar la clase 09. - Solo cambiando el producto inicial y volverlo a
 *Transform: rotate (180 deg); // para rotar la flecha en otra dirección al costado de “My order”.
 
 box-sizing: border-box; // para ubicar el contenido al borde como en las anteriores clases.
+
+😁 ideal para cuando el cliente tenga muchos elementos en el carrito:
+
+.main-container{
+    width: 100%;
+    max-width: 425px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto1fr autoauto;
+}
